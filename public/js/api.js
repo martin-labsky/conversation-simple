@@ -3,6 +3,7 @@
 var Api = (function() {
   var requestPayload;
   var responsePayload;
+  var curWorkspace;
   var messageEndpoint = '/api/message';
 
   // Publicly accessible methods defined
@@ -22,7 +23,15 @@ var Api = (function() {
     },
     setResponsePayload: function(newPayloadStr) {
       responsePayload = JSON.parse(newPayloadStr);
+    },
+    getWorkspace: function() {
+        return curWorkspace;
+    },
+    setWorkspace: function(wksp) {
+        curWorkspace = wksp;
+        //alert(curWorkspace);
     }
+
   };
 
   // Send a message request to the server
@@ -37,10 +46,14 @@ var Api = (function() {
     if (context) {
       payloadToWatson.context = context;
     }
+    if (curWorkspace) {
+      payloadToWatson.workspace = curWorkspace;
+    }
 
     // Built http request
     var http = new XMLHttpRequest();
     http.open('POST', messageEndpoint, true);
+    //alert("endpoint:"+messageEndpoint);
     http.setRequestHeader('Content-type', 'application/json');
     http.onreadystatechange = function() {
       if (http.readyState === 4 && http.status === 200 && http.responseText) {

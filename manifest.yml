@@ -1,15 +1,19 @@
 ---
 declared-services:
   conversation-service:
-    label: conversation
-    plan: free
+    label: conversation_slot_01.dev
+    plan: standard
 applications:
-- name: conversation-simple
+- name: conversation-se-test
   command: npm start
   path: .
   memory: 256M
   instances: 1
   services:
-  - conversation-service
+  - NumericEntitiesTestSvc
   env:
     NPM_CONFIG_PRODUCTION: false
+    CONVERSATION_URL: https://gateway-d.watsonplatform.net/conversation-slot-01/api
+    WORKSPACE_ID: 3168bd47-bdc7-4532-87e4-58fffab2b181
+    CONVERSATION_USERNAME: dc9c8d9f-dade-4898-bf24-0e27f7e57852
+    CONVERSATION_PASSWORD: CQTf1PhDgKq6

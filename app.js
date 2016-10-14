@@ -46,16 +46,16 @@ app.use( bodyParser.json() );
 
 // Create the service wrapper
 var conversation = new Watson( {
-  url: 'https://gateway.watsonplatform.net/conversation/api',
+  url: process.env.CONVERSATION_URL || 'https://gateway.watsonplatform.net/conversation/api',
   username: process.env.CONVERSATION_USERNAME || '<username>',
   password: process.env.CONVERSATION_PASSWORD || '<password>',
-  version_date: '2016-09-20',
+  version_date: '2016-10-20',
   version: 'v1'
 } );
 
 // Endpoint to be call from the client side
 app.post( '/api/message', function(req, res) {
-  var workspace = process.env.WORKSPACE_ID || '<workspace-id>';
+  var workspace = req.body.workspace || process.env.WORKSPACE_ID || '<workspace-id>';
   if ( !workspace || workspace === '<workspace-id>' ) {
     return res.json( {
       'output': {

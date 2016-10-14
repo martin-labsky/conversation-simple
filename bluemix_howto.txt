@@ -1,0 +1,19 @@
+DEV:
+cf login -a https://api.stage1.bluemix.net --skip-ssl-validation -u user -p pass
+
+PROD:
+c:\Users\IBM_ADMIN\git\conversation-simple>cf login -u user -p pass
+API endpoint:   https://api.ng.bluemix.net (API version: 2.54.0)
+
+==============================
+
+npm install
+npm start
+
+==============================
+
+edit manifest.yaml
+
+add all those .env variables once again as regular env vars!!!
+
+cf push
