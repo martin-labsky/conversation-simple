@@ -1,0 +1,55 @@
+DEV:
+c:\Users\IBM_ADMIN\git\conversation-simple>cf login -a https://api.stage1.bluemix.net --skip-ssl-validation -u martin.labsky@cz.ibm.com -p Hovno11a
+API endpoint: https://api.stage1.bluemix.net
+Authenticating...
+OK
+
+Select an org (or press enter to skip):
+1. Watson-Platform-CSF-Dev
+2. martin.labsky@cz.ibm.com
+3. watsxmgr@us.ibm.com
+
+Org> 2
+Targeted org martin.labsky@cz.ibm.com
+
+Targeted space dev
+
+API endpoint:   https://api.stage1.bluemix.net (API version: 2.54.0)
+User:           martin.labsky@cz.ibm.com
+Org:            martin.labsky@cz.ibm.com
+Space:          dev
+
+
+PROD:
+c:\Users\IBM_ADMIN\git\conversation-simple>cf login -u martin.labsky@cz.ibm.com -p Hovno11a
+API endpoint: https://api.ng.bluemix.net
+Authenticating...
+OK
+
+Select an org (or press enter to skip):
+1. Watson-Platform-CSF-Prod
+2. martin.labsky@cz.ibm.com
+3. PragueV2org
+
+Org> 2
+Targeted org martin.labsky@cz.ibm.com
+
+Targeted space dev
+
+API endpoint:   https://api.ng.bluemix.net (API version: 2.54.0)
+User:           martin.labsky@cz.ibm.com
+Org:            martin.labsky@cz.ibm.com
+Space:          dev
+
+==============================
+
+npm install
+npm run
+
+==============================
+
+edit manifest.yaml
+
+add all those .env variables once again as regular env vars!!!
+
+cf push

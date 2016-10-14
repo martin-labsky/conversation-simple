@@ -11,6 +11,16 @@
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+  <div id="select_wksp">
+  <select onchange="Api.setWorkspace(this.value)">
+   <option value="3168bd47-bdc7-4532-87e4-58fffab2b181">English</option>
+   <option value="1950c9bb-7147-4a93-8938-edcf5611cd0d">Spanish</option>
+   <option value="ca2baa35-19e8-4664-97e1-80ad820d2f53">French</option>
+   <option value="aac40c36-3f3e-40a1-b0b6-5af9040b9d25">Italian</option>
+   <option value="aae986d7-1c5a-47fe-9669-08cdba5baaae">Japanese</option>
+   <option value="c78fd2a4-c548-4a4d-a3c7-dd3a149cfc18">Brazilian Portuguese</option>
+  </select> 
+  </div>
   <div id="view-change-button" class="button" onclick="PayloadPanel.togglePanel(event, this)">
     <img class="option full" src="../img/Chat Button.png">
     <img class="option not-full" src="../img/Code Button.png">
