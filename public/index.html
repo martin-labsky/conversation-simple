@@ -1,7 +1,7 @@
 <html>
 <head>
   <base href="/">
-  <title>Conversation Chat App</title>
+  <title>Conversation Doc BOT</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="og:image" content="conversation.svg" />
@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-  <div id="select_wksp">
+  <div id="select_wksp">COCOBOT 1.0
+  <!-- 
   <select onchange="Api.setWorkspace(this.value)">
    <option value="3168bd47-bdc7-4532-87e4-58fffab2b181">English</option>
    <option value="1950c9bb-7147-4a93-8938-edcf5611cd0d">Spanish</option>
@@ -21,12 +22,20 @@
    <option value="c78fd2a4-c548-4a4d-a3c7-dd3a149cfc18">Brazilian Portuguese</option>
    <option value="af9a2bdb-135f-40bd-80e8-27b2b096e935">German</option>
   </select> 
+  -->
   </div>
+  <!-- 
   <div id="view-change-button" class="button" onclick="PayloadPanel.togglePanel(event, this)">
     <img class="option full" src="../img/Chat Button.png">
     <img class="option not-full" src="../img/Code Button.png">
   </div>
+   -->
   <div id="contentParent" class="responsive-columns-wrapper">
+
+    <div id="doc-column-holder" class="doc-column content-column">
+        <iframe id="doc" src="https://wdc-ambercraig-systementities.stage1.mybluemix.net/doc/conversation/">This is supposed to show Conversation docs</iframe>
+    </div>
+
     <div id="chat-column-holder" class="responsive-column content-column">
       <div class="chat-column">
         <div id="scrollingChat"></div>
@@ -37,6 +46,7 @@
         </label>
       </div>
     </div>
+    <!-- 
     <div id="payload-column" class="fixed-column content-column">
       <div id="payload-initial-message">
         Type something to see the output
@@ -44,6 +54,7 @@
       <div id="payload-request" class="payload"></div>
       <div id="payload-response" class="payload"></div>
     </div>
+    -->
   </div>
 
   <script src="js/common.js"></script>
