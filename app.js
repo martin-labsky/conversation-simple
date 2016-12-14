@@ -53,6 +53,28 @@ var conversation = new Watson( {
   version: 'v1'
 } );
 
+//Use a querystring parser to encode output.
+var qs = require('qs');
+
+var rrSdk = require('watson-developer-cloud');
+var rrSvc = rrSdk.retrieve_and_rank({
+// stage:
+  url: process.env.RR_URL || 'https://gateway.watsonplatform.net/retrieve-and-rank/api',
+  username: process.env.RR_USERNAME || '<rr_username>',
+  password: process.env.RR_PASSWORD || '<rr_password>',
+  version: 'v1'
+});
+console.log("Created rrSvc: "+rrSvc);
+
+var rrParams = {
+  cluster_id: process.env.RR_CLUSTER || '<rr_cluster>',
+  collection_name: process.env.RR_COLLECTION || 'coco_collection',
+  wt: 'json'
+};
+
+var solrClient = rrSvc.createSolrClient(rrParams);
+console.log("Created solrClient: "+solrClient);
+
 // Endpoint to be call from the client side
 app.post( '/api/message', function(req, res) {
   var workspace = req.body.workspace || process.env.WORKSPACE_ID || '<workspace-id>';
@@ -87,6 +109,33 @@ app.post( '/api/message', function(req, res) {
     }
     return res.json( updateMessage( payload, data ) );
   } );
+} );
+
+// RR proxy Endpoint to call from the client side
+app.post( '/api/rr', function(req, res) {
+  var text = req.body.text;
+  // return res.json( '{"responseHeader":{"status":0,"QTime":3,"text":"'+text+'","params":{"q":"expression","fl":"id,title,author","wt":"json"}},"response":{"numFound":8,"start":0,"docs":[{"author":["http://www.ibm.com/watson/developercloud/doc/conversation/expression-language.html"],"title":[""],"id":"7"},{"author":["http://www.ibm.com/watson/developercloud/doc/conversation/dialog-shorthand.html"],"title":[""],"id":"5"},{"author":["http://www.ibm.com/watson/developercloud/doc/conversation/reference.html"],"title":[""],"id":"14"},{"title":[""],"author":["http://www.ibm.com/watson/developercloud/doc/conversation/dialog-methods.html"],"id":"4"},{"title":[""],"author":["http://www.ibm.com/watson/developercloud/doc/conversation/system-entities.html"],"id":"17"},{"id":"13","author":["http://www.ibm.com/watson/developercloud/doc/conversation/notices.html"],"title":[""]},{"title":[""],"author":["http://www.ibm.com/watson/developercloud/doc/conversation/dialog-build.html"],"id":"3"},{"title":[""],"author":["http://www.ibm.com/watson/developercloud/doc/conversation/intents.html"],"id":"11"}]}}' );
+  
+  console.log('Searching all docs for '+text);
+
+  // get rid of : as they serve as field:value delimiters in the SOLR search query
+  text = text.replace(/:/g,' ');
+  
+  //var query = solrClient.createQuery();
+  //query.q({ 'title' : text });
+  var query = qs.stringify( {q: text, wt: 'json', fl: 'id,title,author'} );
+
+  solrClient.search(query, function(err, searchResponse) {
+    if(err) {
+      console.log('Error searching for documents: ' + err);
+      return res.status( err.code || 500 ).json( err );
+    }
+    else {
+      console.log('Found ' + searchResponse.response.numFound + ' documents.');
+      console.log('First document: ' + JSON.stringify(searchResponse.response.docs[0], null, 2));
+      return res.json( searchResponse );
+    }
+  });
 } );
 
 /**

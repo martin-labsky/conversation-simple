@@ -1,0 +1,24 @@
+---
+declared-services:
+  conversation-service:
+    label: Conversation
+    plan: standard
+applications:
+- name: cocobot
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+  - Conversation-co-co
+  env:
+    NPM_CONFIG_PRODUCTION: false
+    CONVERSATION_URL: https://gateway-s.watsonplatform.net/conversation/api
+    WORKSPACE_ID: abc
+    CONVERSATION_USERNAME: abc
+    CONVERSATION_PASSWORD: abc
+    RR_URL: https://gateway-s.watsonplatform.net/retrieve-and-rank/api
+    RR_CLUSTER: abc
+    RR_COLLECTION: coco_collection
+    RR_USERNAME: abc
+    RR_PASSWORD: abc
