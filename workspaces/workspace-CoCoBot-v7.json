@@ -1,0 +1,2513 @@
+{
+	"name": "Conversation about Conversation - 7",
+	"created": "2017-01-16T12:58:03.974Z",
+	"intents": [{
+		"intent": "BYE",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "bye",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Bye bye",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "see you",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "see you later",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "See you next time",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "COOL",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Good idea",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Great application",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "I like it",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "It is cool",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Very nice",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "ENTITIES_INFO",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "city names recognition needed",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "How can i detect cities?",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "I need to recognize tracking numbers",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Is it possible to detect personal names?",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "I want to detect emails",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "GIVE_ME_AN_EXAMPLE",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "example of intent",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "how can i use intents",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "intent example",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Not sure how to use entities",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "show me ussage of intents",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "GREETING",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Hello",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "hi",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "How are you",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "How do you do?",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Nice to meet you",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "HELP",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "help",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "help me",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "I am stuck",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "I need help",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "What should I say",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "NO",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Don't show that now",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "no",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "nope",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "not",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "not now",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "NUMBER_OF_EXAMPLES_Q",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "I have only 3 examples",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Is 5 training samples enough",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Is it enought to have 2 examples for intents",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Will 4 examples work for my intent",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Will it work wit 8 training samples?",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "SCRIPTING_INFO",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Can I do for loop",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "How can I do scripting?",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "is it possible to compare values?",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Is scripting possible in conversation",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Need to evaluate the expression",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "SUCKS",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Crappy application",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "I don't like it",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "It is booring",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "It is useless",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "It sucks",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "SYNTAX_OF_CONVERSATION",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "help me with syntax please",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "I am confused form the syntax",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "I am not sure how to write conditions",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "What is the prescription to write conditions",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "What syntax can be used",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "SYNTAX_SIGNS",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "How ampersand can be used",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Meaning of dollar sign",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "What is at key used for",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "What is the meaning of colon",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Why hash sign is used",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "SYSTEM_ENTITIES_INFO",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Can I detect time",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "how can i make entity for currency",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "I need entity for dates",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Is it possible to use numbers as entity",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "I want to recognize numbers",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "THANK_YOU",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "thanks",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Thank you",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "thank you very much",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "This helped me",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "thx",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "WHAT_IS",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "how can we use dialog",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "intent is not clear to me",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "Not sure how can i use nodes",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "What is entity",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "why i need intents",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "YES",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "agree",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "go ahaed",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "I agree",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "of course",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "sure",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		},
+		{
+			"text": "yes",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_11-january-2017",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "11 January 2017",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_11-july-2016",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "11 July 2016",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_18-may-2016",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "18 May 2016",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_19-december-2016",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "19 December 2016",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_20-september-2016",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "20 September 2016",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_21-october-2016",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "21 October 2016",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_22-december-2016",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "22 December 2016",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_29-august-2016",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "29 August 2016",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_5-december-2016",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "5 December 2016",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_accessing-entities",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Accessing entities",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_accessing-input",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Accessing input",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_accessing-intents",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Accessing intents",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_built-in-global-variables",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Built-in global variables",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_cognitive-car-demo",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Cognitive car demo",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_conversation-enhanced-app",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Conversation Enhanced app",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_conversation-simple-app",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Conversation simple app",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_creating-an-entity",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Creating an entity",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_creating-an-intent",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Creating an intent",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_creating-a-workspace",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Creating a workspace",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_creating-dialog-nodes",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Creating dialog nodes",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_dialog-overview",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Dialog overview",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_enabling-system-entities",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Enabling system entities",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_evaluation",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Evaluation",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_high-level-steps",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "High-level steps",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_importing-entities",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Importing entities",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_importing-exporting-and-copying-workspaces",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Importing, exporting, and copying workspaces",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_importing-intents-and-examples",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Importing intents and examples",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_planning-your-entities",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Planning your entities",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_planning-your-intents",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Planning your intents",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_shorthand-for-context-variables",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Shorthand for context variables",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_shorthand-for-entities",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Shorthand for entities",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_shorthand-for-intents",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Shorthand for intents",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz__sys-currency-entity",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "@sys-currency entity",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz__sys-date-and-sys-time-entities",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "@sys-date and @sys-time entities",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz__sys-number-entity",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "@sys-number entity",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz__sys-percentage-entity",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "@sys-percentage entity",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_testing-your-dialog",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Testing your dialog",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_testing-your-intents",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Testing your intents",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_tone-analyzer-integrated-with-conversation",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "Tone Analyzer integrated with Conversation",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	},
+	{
+		"intent": "zZz_what-to-do-next",
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"examples": [{
+			"text": "What to do next",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-01-16T14:28:58.033Z",
+	"entities": [{
+		"type": null,
+		"entity": "conv_concepts",
+		"source": null,
+		"values": [{
+			"value": "context",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["dialog context"]
+		},
+		{
+			"value": "dialog",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["dialog tab"]
+		},
+		{
+			"value": "entity",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["entities",
+			"named enties",
+			"named entity"]
+		},
+		{
+			"value": "entity value",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["value of entity"]
+		},
+		{
+			"value": "intent",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["intents",
+			"NLC intent",
+			"NLC intents"]
+		},
+		{
+			"value": "node",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["dialog nodes",
+			"dilog node",
+			"nodes"]
+		},
+		{
+			"value": "service instance",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["conversation service"]
+		},
+		{
+			"value": "synonym",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["entity synonym",
+			"entity synonyms",
+			"synonyms"]
+		},
+		{
+			"value": "system entity",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["prebuilt entities",
+			"system entities"]
+		},
+		{
+			"value": "training sample",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["intent example",
+			"intent value",
+			"user example"]
+		},
+		{
+			"value": "variable",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["context variable",
+			"context variables",
+			"variables"]
+		},
+		{
+			"value": "workspace",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["workspaces"]
+		}],
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"open_list": false,
+		"description": null
+	},
+	{
+		"type": null,
+		"entity": "conv_examples",
+		"source": null,
+		"values": [{
+			"value": "entities",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["entity"]
+		},
+		{
+			"value": "intents",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["intent",
+			"sample sentence"]
+		}],
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"open_list": false,
+		"description": null
+	},
+	{
+		"type": null,
+		"entity": "entity_domains",
+		"source": null,
+		"values": [{
+			"value": "city",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["cities",
+			"city name",
+			"city names",
+			"town",
+			"towns",
+			"village",
+			"villages"]
+		},
+		{
+			"value": "country",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["countries",
+			"location",
+			"locations",
+			"place",
+			"places",
+			"state",
+			"states"]
+		},
+		{
+			"value": "name",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["family name",
+			"family names",
+			"first name",
+			"given name",
+			"names",
+			"personal name",
+			"personal names"]
+		},
+		{
+			"value": "patterns",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["email",
+			"e-mail",
+			"e-mail address",
+			"email adress",
+			"emails",
+			"id",
+			"identifier",
+			"ids",
+			"licence plate",
+			"license plates",
+			"pattern",
+			"product number",
+			"product numbers",
+			"registration number",
+			"registration numbers",
+			"room number",
+			"room numbers",
+			"serial number",
+			"ticket number",
+			"tracking number",
+			"url",
+			"web",
+			"web address",
+			"web adresses",
+			"webs"]
+		}],
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"open_list": false,
+		"description": null
+	},
+	{
+		"type": null,
+		"entity": "evaluation_concepts",
+		"source": null,
+		"values": [{
+			"value": "compare",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["comparison"]
+		},
+		{
+			"value": "compute",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["count",
+			"evaluate",
+			"evaluation"]
+		},
+		{
+			"value": "process",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["processing"]
+		},
+		{
+			"value": "scripting",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["script",
+			"scripts"]
+		}],
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"open_list": false,
+		"description": null
+	},
+	{
+		"type": null,
+		"entity": "syntax",
+		"source": null,
+		"values": [{
+			"value": "syntax",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["define",
+			"encode",
+			"prescribe",
+			"write"]
+		}],
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"open_list": false,
+		"description": null
+	},
+	{
+		"type": null,
+		"entity": "syntax_concepts",
+		"source": null,
+		"values": [{
+			"value": "ampersand",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["&",
+			"&&",
+			"ampersand",
+			"ampersands",
+			"ampersand sign",
+			"two ampersand"]
+		},
+		{
+			"value": "at",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["@",
+			"at sign",
+			"at symbol"]
+		},
+		{
+			"value": "colon",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": [":"]
+		},
+		{
+			"value": "dollar",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["$",
+			"dollar sign"]
+		},
+		{
+			"value": "hash",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["#",
+			"hash key",
+			"hash sign"]
+		}],
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"open_list": false,
+		"description": null
+	},
+	{
+		"type": null,
+		"entity": "syntax_types",
+		"source": null,
+		"values": [{
+			"value": "full hand syntax",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["fhs",
+			"full hand",
+			"full syntax"]
+		},
+		{
+			"value": "Short hand syntax",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["short hand",
+			"short syntax",
+			"shs"]
+		}],
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"open_list": false,
+		"description": null
+	},
+	{
+		"type": null,
+		"entity": "sys-number",
+		"source": "system.entities",
+		"values": [],
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"open_list": false,
+		"description": null
+	},
+	{
+		"type": null,
+		"entity": "system_entity_domains",
+		"source": null,
+		"values": [{
+			"value": "currency",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["money"]
+		},
+		{
+			"value": "date",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["dates",
+			"day",
+			"days",
+			"month",
+			"months",
+			"year",
+			"years"]
+		},
+		{
+			"value": "number",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["count",
+			"digit",
+			"digits",
+			"numbers"]
+		},
+		{
+			"value": "percent",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["percentage",
+			"percentages",
+			"percents"]
+		},
+		{
+			"value": "time",
+			"created": "2017-01-16T12:58:03.974Z",
+			"updated": "2017-01-16T12:58:03.974Z",
+			"metadata": null,
+			"synonyms": ["hour",
+			"hours",
+			"minute",
+			"minutes"]
+		}],
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"open_list": false,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": null,
+	"description": "Super cool help application for Watson Conversation service",
+	"dialog_nodes": [{
+		"go_to": null,
+		"output": {
+			
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#GIVE_ME_AN_EXAMPLE && @conv_examples",
+		"description": null,
+		"dialog_node": "examples",
+		"previous_sibling": "anchors"
+	},
+	{
+		"go_to": null,
+		"output": {
+			
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#WHAT_IS && @conv_concepts",
+		"description": null,
+		"dialog_node": "conversation concepts",
+		"previous_sibling": "smalltalk"
+	},
+	{
+		"go_to": null,
+		"output": {
+			
+		},
+		"parent": "Feature_info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#ENTITIES_INFO",
+		"description": null,
+		"dialog_node": "Entities info",
+		"previous_sibling": "Sys entities info"
+	},
+	{
+		"go_to": null,
+		"output": {
+			
+		},
+		"parent": "Feature_info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#SYNTAX_SIGNS",
+		"description": null,
+		"dialog_node": "Syntax signs info",
+		"previous_sibling": "Syntax types"
+	},
+	{
+		"go_to": null,
+		"output": {
+			
+		},
+		"parent": "number of training samples",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "bbbb",
+		"previous_sibling": "tips question"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["Are you interested in tips how to gather smaples?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "number of training samples",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@sys-number<10",
+		"description": null,
+		"dialog_node": "tips question",
+		"previous_sibling": null
+	},
+	{
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["Ask about terms, procedures, examples. Such as \"What is intent?\" or \"Give me an example of date entity usage\"."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#HELP",
+		"description": null,
+		"dialog_node": "help",
+		"previous_sibling": "number of training samples"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["It has been pleasure talking to you."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "smalltalk",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#BYE",
+		"description": null,
+		"dialog_node": "bye",
+		"previous_sibling": "greeting"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["No match"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_2_1481277508934",
+		"previous_sibling": "rnr search"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["OK, no problem."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "tips question",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#NO",
+		"description": null,
+		"dialog_node": "node_17_1481281328287",
+		"previous_sibling": "Show data col. tips"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["When collecting samples for intents, it is important to collect it in a same modality that will be used for final deployment. It means collect samples of text chat bot by letting people to type. Best is to collect sample with target user group of your chatbot."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "tips question",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#YES",
+		"description": null,
+		"dialog_node": "Show data col. tips",
+		"previous_sibling": null
+	},
+	{
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["You are welcome"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "smalltalk",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#THANK_YOU",
+		"description": null,
+		"dialog_node": "thank you",
+		"previous_sibling": "bye"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["You can use documentation for the Watson Conversation directly if you don't like this application."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "smalltalk",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#SUCKS",
+		"description": null,
+		"dialog_node": "sucks",
+		"previous_sibling": "cool"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["Nice to meet you",
+				"I am happy to help"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "smalltalk",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#GREETING",
+		"description": null,
+		"dialog_node": "greeting",
+		"previous_sibling": null
+	},
+	{
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["Thank you for positive feedabck",
+				"We are happy you like it"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "smalltalk",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#COOL",
+		"description": null,
+		"dialog_node": "cool",
+		"previous_sibling": "thank you"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"rnr": "<? input.text ?>",
+			"text": {
+				"values": ["Searched for the related page using fulltext (see the result in the left panel)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T14:28:58.033Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "rnr search",
+		"previous_sibling": "Feature_info"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"url": "<? current_node.metadata.mapping[intents.intent].url ?>",
+			"text": {
+				"values": ["See related documentation page for <? current_node.metadata.mapping[intents.intent].text ?> ...",
+				"Found related page for <? current_node.metadata.mapping[intents.intent].text ?> ...",
+				"We do have documentation for <? current_node.metadata.mapping[intents.intent].text ?> ..."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": {
+			"mapping": {
+				"zZz_evaluation": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/expression-language.html#evaluation",
+					"text": "Evaluation"
+				},
+				"zZz_18-may-2016": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/release-notes.html#18-may-2016",
+					"text": "18 May 2016"
+				},
+				"zZz_11-july-2016": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/release-notes.html#11-july-2016",
+					"text": "11 July 2016"
+				},
+				"zZz_29-august-2016": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/release-notes.html#29-august-2016",
+					"text": "29 August 2016"
+				},
+				"zZz_11-january-2017": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/release-notes.html#11-january-2017",
+					"text": "11 January 2017"
+				},
+				"zZz_21-october-2016": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/release-notes.html#21-october-2016",
+					"text": "21 October 2016"
+				},
+				"zZz_5-december-2016": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/release-notes.html#5-december-2016",
+					"text": "5 December 2016"
+				},
+				"zZz_accessing-input": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/expression-language.html#accessing-input",
+					"text": "Accessing input"
+				},
+				"zZz_dialog-overview": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-build.html#dialog-overview",
+					"text": "Dialog overview"
+				},
+				"zZz_what-to-do-next": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/tutorial-dialog.html#what-to-do-next",
+					"text": "What to do next"
+				},
+				"zZz_19-december-2016": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/release-notes.html#19-december-2016",
+					"text": "19 December 2016"
+				},
+				"zZz_22-december-2016": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/release-notes.html#22-december-2016",
+					"text": "22 December 2016"
+				},
+				"zZz_high-level-steps": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-build.html#high-level-steps",
+					"text": "High-level steps"
+				},
+				"zZz_20-september-2016": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/release-notes.html#20-september-2016",
+					"text": "20 September 2016"
+				},
+				"zZz_accessing-intents": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/expression-language.html#accessing-intents",
+					"text": "Accessing intents"
+				},
+				"zZz__sys-number-entity": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/system-entities.html#@sys-number-entity",
+					"text": "@sys-number entity"
+				},
+				"zZz_accessing-entities": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/expression-language.html#accessing-entities",
+					"text": "Accessing entities"
+				},
+				"zZz_cognitive-car-demo": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/sample-applications.html#cognitive-car-demo",
+					"text": "Cognitive car demo"
+				},
+				"zZz_creating-an-entity": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/entities.html#creating-an-entity",
+					"text": "Creating an entity"
+				},
+				"zZz_creating-an-intent": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/intents.html#creating-an-intent",
+					"text": "Creating an intent"
+				},
+				"zZz_importing-entities": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/entities.html#importing-entities",
+					"text": "Importing entities"
+				},
+				"zZz_testing-your-dialog": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-build.html#testing-your-dialog",
+					"text": "Testing your dialog"
+				},
+				"zZz__sys-currency-entity": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/system-entities.html#@sys-currency-entity",
+					"text": "@sys-currency entity"
+				},
+				"zZz_creating-a-workspace": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/create-workspace.html#creating-a-workspace",
+					"text": "Creating a workspace"
+				},
+				"zZz_testing-your-intents": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/intents.html#testing-your-intents",
+					"text": "Testing your intents"
+				},
+				"zZz_creating-dialog-nodes": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-build.html#creating-dialog-nodes",
+					"text": "Creating dialog nodes"
+				},
+				"zZz_planning-your-intents": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/intents.html#planning-your-intents",
+					"text": "Planning your intents"
+				},
+				"zZz_shorthand-for-intents": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-shorthand.html#shorthand-for-intents",
+					"text": "Shorthand for intents"
+				},
+				"zZz__sys-percentage-entity": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/system-entities.html#@sys-percentage-entity",
+					"text": "@sys-percentage entity"
+				},
+				"zZz_planning-your-entities": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/entities.html#planning-your-entities",
+					"text": "Planning your entities"
+				},
+				"zZz_shorthand-for-entities": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-shorthand.html#shorthand-for-entities",
+					"text": "Shorthand for entities"
+				},
+				"zZz_conversation-simple-app": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/sample-applications.html#conversation-simple-app",
+					"text": "Conversation simple app"
+				},
+				"zZz_enabling-system-entities": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/entities.html#enabling-system-entities",
+					"text": "Enabling system entities"
+				},
+				"zZz_built-in-global-variables": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/expression-language.html#built-in-global-variables",
+					"text": "Built-in global variables"
+				},
+				"zZz_conversation-enhanced-app": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/sample-applications.html#conversation-enhanced-app",
+					"text": "Conversation Enhanced app"
+				},
+				"zZz_importing-intents-and-examples": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/intents.html#importing-intents-and-examples",
+					"text": "Importing intents and examples"
+				},
+				"zZz__sys-date-and-sys-time-entities": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/system-entities.html#@sys-date-and-@sys-time-entities",
+					"text": "@sys-date and @sys-time entities"
+				},
+				"zZz_shorthand-for-context-variables": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-shorthand.html#shorthand-for-context-variables",
+					"text": "Shorthand for context variables"
+				},
+				"zZz_importing-exporting-and-copying-workspaces": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/create-workspace.html#importing-exporting-and-copying-workspaces",
+					"text": "Importing, exporting, and copying workspaces"
+				},
+				"zZz_tone-analyzer-integrated-with-conversation": {
+					"url": "http://www.ibm.com/watson/developercloud/doc/conversation/sample-applications.html#tone-analyzer-integrated-with-conversation",
+					"text": "Tone Analyzer integrated with Conversation"
+				}
+			}
+		},
+		"conditions": "intents && intents.intent.contains('zZz_') && intents.confidence > 0.2",
+		"description": null,
+		"dialog_node": "anchors",
+		"previous_sibling": "conversation concepts"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-shorthand.html",
+			"text": {
+				"values": ["Description of short hand syntax can be found on documentation page."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Syntax types",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@syntax_types:(Short hand syntax)",
+		"description": null,
+		"dialog_node": "Short hand",
+		"previous_sibling": "Full hand"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/entities.html\\#enable_system_entities",
+			"text": {
+				"values": ["We have feature called system entities, that could be used to detect numbers, date, time, currency and percentage. You will find it in Entities tab."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Feature_info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#SYSTEM_ENTITIES_INFO",
+		"description": null,
+		"dialog_node": "Sys entities info",
+		"previous_sibling": null
+	},
+	{
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/expression-language.html",
+			"text": {
+				"values": ["Description of full hand syntax (expression language) can be found on documentation page."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Syntax types",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@syntax_types:(full hand syntax)",
+		"description": null,
+		"dialog_node": "Full hand",
+		"previous_sibling": null
+	},
+	{
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/expression-language.html",
+			"text": {
+				"values": ["There is a support of SpEL language in Watson Conversation that can be used to do scripting."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Feature_info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#SCRIPTING_INFO",
+		"description": null,
+		"dialog_node": "SpEL info",
+		"previous_sibling": "Entities info"
+	},
+	{
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/index.html",
+			"text": {
+				"values": ["Let's talk about the IBM Conversation service, what would you like to know?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "conversation_start",
+		"description": null,
+		"dialog_node": "intro",
+		"previous_sibling": null
+	},
+	{
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/reference.html",
+			"text": {
+				"values": ["Conversation uses two types of syntax. One is simple with limitted functions called \"short hand syntax\" and the second is more complex and also more powerfull called \"full hand syntax\" Which one are you interested in?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Feature_info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#SYNTAX_OF_CONVERSATION",
+		"description": null,
+		"dialog_node": "Syntax types",
+		"previous_sibling": "SpEL info"
+	},
+	{
+		"go_to": {
+			"return": null,
+			"selector": "condition",
+			"dialog_node": "conversation concepts"
+		},
+		"output": {
+			
+		},
+		"parent": "smalltalk",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_3_1481708715063",
+		"previous_sibling": "sucks"
+	},
+	{
+		"go_to": {
+			"return": null,
+			"selector": "condition",
+			"dialog_node": "greeting"
+		},
+		"output": {
+			
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "smalltalk",
+		"previous_sibling": "intro"
+	},
+	{
+		"go_to": {
+			"return": null,
+			"selector": "condition",
+			"dialog_node": "rnr search"
+		},
+		"output": {
+			
+		},
+		"parent": "Feature_info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_7_1481296011671",
+		"previous_sibling": "Syntax signs info"
+	},
+	{
+		"go_to": {
+			"return": null,
+			"selector": "condition",
+			"dialog_node": "Sys entities info"
+		},
+		"output": {
+			
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "Feature_info",
+		"previous_sibling": "help"
+	},
+	{
+		"go_to": {
+			"return": null,
+			"selector": "condition",
+			"dialog_node": "tips question"
+		},
+		"output": {
+			
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "#NUMBER_OF_EXAMPLES_Q && @sys-number",
+		"description": null,
+		"dialog_node": "number of training samples",
+		"previous_sibling": "examples"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["It is great if you have 10 or more exmaples. You can add more samples later to achive better accuracy of the system."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "number of training samples",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@sys-number>=10",
+		"description": null,
+		"dialog_node": "node_12_1481280021317",
+		"previous_sibling": "node_10_1481279858096"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["It shold be suffitient to use 5 or more exmaples, but you will achieve better accuracy of the system if you provide more user exmaples. You can also add exmaples later when you will gather some data"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "number of training samples",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@sys-number >= 5 && @sys-number<10",
+		"description": null,
+		"dialog_node": "node_10_1481279858096",
+		"previous_sibling": "node_11_1481279952062"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["Pattern based entity recognition is not currently supported"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Entities info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @entity_domains:patterns",
+		"description": null,
+		"dialog_node": "node_28_1481288187030",
+		"previous_sibling": null
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["System will not work properly if you provide less than 5 examples. Try to ask people around and gather more samples for your intent."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "number of training samples",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@sys-number<5",
+		"description": null,
+		"dialog_node": "node_11_1481279952062",
+		"previous_sibling": "bbbb"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/configure-workspace.html",
+			"text": {
+				"values": ["An intent represent’s the purpose of a user’s input, such as a question about business locations or a bill payment. You define an intent for each type of user request you want your application to support."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @conv_concepts:intent",
+		"description": null,
+		"dialog_node": "node_3_1481278787746",
+		"previous_sibling": null
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/configure-workspace.html",
+			"text": {
+				"values": ["Workspace is a container for all of the artifacts that define the conversation flow for an application."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @conv_concepts:workspace",
+		"description": null,
+		"dialog_node": "node_19_1481284869627",
+		"previous_sibling": "node_2_1481278710019"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-build.html",
+			"text": {
+				"values": ["Dialog is a part where you can assemble intents and entity together to design a meaningfull dialog flow"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@conv_concepts:dialog",
+		"description": null,
+		"dialog_node": "node_2_1481278710019",
+		"previous_sibling": "node_8_1481279735066"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-build.html\\#context-variables",
+			"text": {
+				"values": ["In context variable you can store piece of information (value) that will persist in the dialog context."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @conv_concepts:variable",
+		"description": null,
+		"dialog_node": "node_12_1481296890809",
+		"previous_sibling": "node_11_1481296870193"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-build.html\\#creating-dialog-nodes",
+			"text": {
+				"values": ["Dialog node is an element of a dialog that represents a single interaction that is a part of a conversation."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @conv_concepts:node",
+		"description": null,
+		"dialog_node": "node_7_1481279691778",
+		"previous_sibling": "node_6_1481278884574"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-build.html\\#dialog-tree-evaluation",
+			"text": {
+				"values": ["The dialog context is the mechanism for passing information between the dialog and your application code."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @conv_concepts:context",
+		"description": null,
+		"dialog_node": "node_11_1481296870193",
+		"previous_sibling": "node_20_1481284884627"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-shorthand.html",
+			"text": {
+				"values": ["The ampersand sign \"&\" is used in standard syntax as an AND condition. You need to use it as \"&&\""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Syntax signs info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @syntax_concepts:ampersand",
+		"description": null,
+		"dialog_node": "node_9_1481296320442",
+		"previous_sibling": "node_8_1481296236019"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-shorthand.html",
+			"text": {
+				"values": ["The collon \":\" is used as expression of equality in short hand syntax"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Syntax signs info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @syntax_concepts:colon",
+		"description": null,
+		"dialog_node": "node_10_1481296394281",
+		"previous_sibling": "node_9_1481296320442"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-shorthand.html\\#shorthand-for-context-variables",
+			"text": {
+				"values": ["The dollar sign \"$\" is used as a prefix of concept variable"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Syntax signs info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@syntax_concepts:dollar",
+		"description": null,
+		"dialog_node": "node_8_1481296236019",
+		"previous_sibling": "node_6_1481295619621"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-shorthand.html\\#shorthand-for-entities",
+			"text": {
+				"values": ["The at sign \"@\" is used to prefix en entity"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Syntax signs info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@syntax_concepts:at",
+		"description": null,
+		"dialog_node": "node_6_1481295619621",
+		"previous_sibling": "node_5_1481295579055"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/dialog-shorthand.html\\#shorthand-for-intents",
+			"text": {
+				"values": ["The hash sign \"#\" is used to prefix an intent"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Syntax signs info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@syntax_concepts:hash",
+		"description": null,
+		"dialog_node": "node_5_1481295579055",
+		"previous_sibling": null
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/entities.html",
+			"text": {
+				"values": ["An entity represents a term or object that is relevant to your intents and that provides a specific context for an intent. For example, an entity might represent a city where the user wants to find a business location, or the amount of a bill payment."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@conv_concepts:entity",
+		"description": null,
+		"dialog_node": "node_5_1481278867681",
+		"previous_sibling": "node_4_1481278841069"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/entities.html",
+			"text": {
+				"values": ["You can create your own dictionary based entity in entities tab. You will need to provide list of values e.g. city names you want to be detected."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Entities info",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_27_1481288185964",
+		"previous_sibling": "node_28_1481288187030"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/entities.html\\#creating-an-entity",
+			"text": {
+				"values": ["Entity value is one record of an entity.  For entity cities it could be \"Washington\" or \"New York\". Each entity value could have synonyms such as \"N.Y.\" or \"Big apple\""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @conv_concepts:(entity value)",
+		"description": null,
+		"dialog_node": "node_6_1481278884574",
+		"previous_sibling": "node_5_1481278867681"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/entities.html\\#creating-an-entity",
+			"text": {
+				"values": ["Entity value synonym is expressing same hing in diferent words. For entity cities where we have value \"New York\" the synonyms could be \"N.Y.\" or \"Big apple\""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@conv_concepts:synonym",
+		"description": null,
+		"dialog_node": "node_8_1481279735066",
+		"previous_sibling": "node_7_1481279691778"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/entities.html\\#enable_system_entities",
+			"text": {
+				"values": ["System entity is feature allowing you detection of numbers, times or dates, that would difficult to handle by dictionary based entities."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @conv_concepts:(system entity)",
+		"description": null,
+		"dialog_node": "node_20_1481284884627",
+		"previous_sibling": "node_19_1481284869627"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/getting-started.html",
+			"text": {
+				"values": ["Before you can start using the Conversation service, you must log in to IBM® Bluemix® and create a service instance."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @conv_concepts:(service instance)",
+		"description": null,
+		"dialog_node": "node_1_1481317075578",
+		"previous_sibling": "node_12_1481296890809"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/intents.html\\#planning-your-intents",
+			"text": {
+				"values": ["Training sample is the textual string or utterance of user who is asking for particular information."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "conversation concepts",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @conv_concepts:(training sample)",
+		"description": null,
+		"dialog_node": "node_4_1481278841069",
+		"previous_sibling": "node_3_1481278787746"
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/tutorial-entities.html",
+			"text": {
+				"values": ["Use <b>Entities</b> tab to add your entities. See related documentation page."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "examples",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": "@conv_examples:entities",
+		"description": null,
+		"dialog_node": "node_1_1481279017499",
+		"previous_sibling": null
+	},
+	{
+		"type": "response_condition",
+		"go_to": null,
+		"output": {
+			"url": "http://www.ibm.com/watson/developercloud/doc/conversation/tutorial-intents.html",
+			"text": {
+				"values": ["Use <b>Intents</b> tab to enter intents. See related documentation page."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "examples",
+		"context": null,
+		"created": "2017-01-16T12:58:03.974Z",
+		"updated": "2017-01-16T12:58:03.974Z",
+		"metadata": null,
+		"conditions": " @conv_examples:intents",
+		"description": null,
+		"dialog_node": "node_2_1481279545030",
+		"previous_sibling": "node_1_1481279017499"
+	}],
+	"workspace_id": "c49fa32b-e489-4c9e-a500-8d7f35deb9c9",
+	"counterexamples": []
+}

@@ -1,0 +1,25 @@
+---
+declared-services:
+  conversation-service:
+    label: Conversation
+    plan: standard
+applications:
+- name: cocobot
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+  - watson-hackathon-prague
+  env:
+    NPM_CONFIG_PRODUCTION: true
+    CONVERSATION_URL: https://gateway.watsonplatform.net/conversation/api
+    WORKSPACE_ID: abc
+    CONVERSATION_USERNAME: abc
+    CONVERSATION_PASSWORD: abc
+
+    RR_URL: https://gateway.watsonplatform.net/retrieve-and-rank/api
+    RR_CLUSTER: abc
+    RR_COLLECTION: coco_collection
+    RR_USERNAME: abc
+    RR_PASSWORD: abc

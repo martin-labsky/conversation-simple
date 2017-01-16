@@ -63,6 +63,8 @@ var Api = (function() {
 	    	  var url = p.response.docs[0].author[0];
 	          log("Using first doc author as url: "+url);
 	      	  document.getElementById("doc").src = url;
+  	      	  // TODO display message that some related page was found
+	      	  //ConversationPanel.displayMessage({ output: { text: "Found some related content." } }, settings.authorTypes.watson);
 	      	  handled = true;
 	      }
       }
@@ -70,16 +72,17 @@ var Api = (function() {
 		log("No luck reading R&R response: "+p);
 	  }
       if (!handled) {
-    	log("Sorry, no R&R results found"); 
+    	log("Sorry, no R&R results found");
+    	// TODO display message that no related page was found
       }
     }
-    
+
   };
 
   function log(msg) {
-	  // var el = document.getElementById("select_wksp").innerText += "\n" + msg;
+  	  //document.getElementById("select_wksp").innerText += "\n" + msg;
   }
-  
+
   // Send a message request to the server
   function sendRequest(text, context) {
     // Build request payload
