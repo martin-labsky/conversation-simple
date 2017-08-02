@@ -1,0 +1,2588 @@
+{
+  "name": "Conversation about Conversation - 8",
+  "created": "2017-01-16T12:58:03.974Z",
+  "intents": [
+    {
+      "intent": "BYE",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "bye",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Bye bye",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "see you",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "see you later",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "See you next time",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "COOL",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "Good idea",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Great application",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "I like it",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "It is cool",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Very nice",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "ENTITIES_INFO",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "city names recognition needed",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "How can i detect cities?",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "I need to recognize tracking numbers",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Is it possible to detect personal names?",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "I want to detect emails",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "GIVE_ME_AN_EXAMPLE",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "example of intent",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "how can i use intents",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "intent example",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Not sure how to use entities",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "show me ussage of intents",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "GREETING",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "Hello",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "hi",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "How are you",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "How do you do?",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Nice to meet you",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "HELP",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "help",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "help me",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "I am stuck",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "I need help",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "What should I say",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "NO",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "Don't show that now",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "no",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "nope",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "not",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "not now",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "NUMBER_OF_EXAMPLES_Q",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "I have only 3 examples",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Is 5 training samples enough",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Is it enought to have 2 examples for intents",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Will 4 examples work for my intent",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Will it work wit 8 training samples?",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "SCRIPTING_INFO",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "Can I do for loop",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "How can I do scripting?",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "is it possible to compare values?",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Is scripting possible in conversation",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Need to evaluate the expression",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "SUCKS",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "Crappy application",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "I don't like it",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "It is booring",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "It is useless",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "It sucks",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "SYNTAX_OF_CONVERSATION",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "help me with syntax please",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "I am confused form the syntax",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "I am not sure how to write conditions",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "What is the prescription to write conditions",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "What syntax can be used",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "SYNTAX_SIGNS",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "How ampersand can be used",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Meaning of dollar sign",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "What is at key used for",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "What is the meaning of colon",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Why hash sign is used",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "SYSTEM_ENTITIES_INFO",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "Can I detect time",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "how can i make entity for currency",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "I need entity for dates",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Is it possible to use numbers as entity",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "I want to recognize numbers",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "THANK_YOU",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "thanks",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Thank you",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "thank you very much",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "This helped me",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "thx",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "WHAT_IS",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "how can we use dialog",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "intent is not clear to me",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "Not sure how can i use nodes",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "What is entity",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "why i need intents",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "YES",
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "examples": [
+        {
+          "text": "agree",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "go ahaed",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "I agree",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "of course",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "sure",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        },
+        {
+          "text": "yes",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z"
+        }
+      ],
+      "description": null
+    },
+    { "intent": "zZz_workspace-limits", "examples": [{ "text": "Workspace limits" }] },
+{ "intent": "zZz_creating-workspaces", "examples": [{ "text": "Creating workspaces" }] },
+{ "intent": "zZz_exporting-and-copying-workspaces", "examples": [{ "text": "Exporting and copying workspaces" }] },
+{ "intent": "zZz_setting-up-the-conversation-service", "examples": [{ "text": "Setting up the Conversation service" }] },
+{ "intent": "zZz_getting-service-information", "examples": [{ "text": "Getting service information" }] },
+{ "intent": "zZz_communicating-with-the-conversation-service", "examples": [{ "text": "Communicating with the Conversation service" }] },
+{ "intent": "zZz_processing-user-input-to-detect-intents", "examples": [{ "text": "Processing user input to detect intents" }] },
+{ "intent": "zZz_maintaining-state", "examples": [{ "text": "Maintaining state" }] },
+{ "intent": "zZz_implementing-app-actions", "examples": [{ "text": "Implementing app actions" }] },
+{ "intent": "zZz_dialog-overview", "examples": [{ "text": "Dialog overview" }] },
+{ "intent": "zZz_conditions", "examples": [{ "text": "Conditions" }] },
+{ "intent": "zZz_responses", "examples": [{ "text": "Responses" }] },
+{ "intent": "zZz_context-variables", "examples": [{ "text": "Context variables" }] },
+{ "intent": "zZz_creating-a-dialog", "examples": [{ "text": "Creating a dialog" }] },
+{ "intent": "zZz_gathering-information-with-slots", "examples": [{ "text": "Gathering information with slots" }] },
+{ "intent": "zZz_testing-your-dialog", "examples": [{ "text": "Testing your dialog" }] },
+{ "intent": "zZz_arrays", "examples": [{ "text": "Arrays" }] },
+{ "intent": "zZz_date-and-time", "examples": [{ "text": "Date and Time" }] },
+{ "intent": "zZz_numbers", "examples": [{ "text": "Numbers" }] },
+{ "intent": "zZz_objects", "examples": [{ "text": "Objects" }] },
+{ "intent": "zZz_strings", "examples": [{ "text": "Strings" }] },
+{ "intent": "zZz_shorthand-for-intents", "examples": [{ "text": "Shorthand for intents" }] },
+{ "intent": "zZz_shorthand-for-entities", "examples": [{ "text": "Shorthand for entities" }] },
+{ "intent": "zZz_shorthand-for-context-variables", "examples": [{ "text": "Shorthand for context variables" }] },
+{ "intent": "zZz_entity-limits", "examples": [{ "text": "Entity limits" }] },
+{ "intent": "zZz_creating-entities", "examples": [{ "text": "Creating entities" }] },
+{ "intent": "zZz_editing-entities", "examples": [{ "text": "Editing entities" }] },
+{ "intent": "zZz_importing-entities", "examples": [{ "text": "Importing entities" }] },
+{ "intent": "zZz_exporting-entities", "examples": [{ "text": "Exporting entities" }] },
+{ "intent": "zZz_deleting-entities", "examples": [{ "text": "Deleting entities" }] },
+{ "intent": "zZz_enabling-system-entities", "examples": [{ "text": "Enabling system entities" }] },
+{ "intent": "zZz_built-in-global-variables", "examples": [{ "text": "Built-in global variables" }] },
+{ "intent": "zZz_accessing-entities", "examples": [{ "text": "Accessing entities" }] },
+{ "intent": "zZz_accessing-input", "examples": [{ "text": "Accessing input" }] },
+{ "intent": "zZz_accessing-intents", "examples": [{ "text": "Accessing intents" }] },
+{ "intent": "zZz_evaluation", "examples": [{ "text": "Evaluation" }] },
+{ "intent": "zZz_operators", "examples": [{ "text": "Operators" }] },
+{ "intent": "zZz_before-you-begin", "examples": [{ "text": "Before you begin" }] },
+{ "intent": "zZz_launch-the-tool", "examples": [{ "text": "Step 1: Launch the tool" }] },
+{ "intent": "zZz_create-a-workspace", "examples": [{ "text": "Step 2: Create a workspace" }] },
+{ "intent": "zZz_create-intents", "examples": [{ "text": "Step 3: Create intents" }] },
+{ "intent": "zZz_build-a-dialog", "examples": [{ "text": "Step 4: Build a dialog" }] },
+{ "intent": "zZz_review-the-sample-workspace", "examples": [{ "text": "Step 5: Review the sample workspace" }] },
+{ "intent": "zZz_what-to-do-next", "examples": [{ "text": "What to do next" }] },
+{ "intent": "zZz_details", "examples": [{ "text": "Details" }] },
+{ "intent": "zZz_how-to-use-the-service", "examples": [{ "text": "How to use the service" }] },
+{ "intent": "zZz_implementation", "examples": [{ "text": "Implementation" }] },
+{ "intent": "zZz_language-support", "examples": [{ "text": "Language support" }] },
+{ "intent": "zZz_next-steps", "examples": [{ "text": "Next steps" }] },
+{ "intent": "zZz_intent-limits", "examples": [{ "text": "Intent limits" }] },
+{ "intent": "zZz_creating-intents", "examples": [{ "text": "Creating intents" }] },
+{ "intent": "zZz_editing-intents", "examples": [{ "text": "Editing intents" }] },
+{ "intent": "zZz_importing-intents-and-examples", "examples": [{ "text": "Importing intents and examples" }] },
+{ "intent": "zZz_exporting-intents", "examples": [{ "text": "Exporting intents" }] },
+{ "intent": "zZz_deleting-intents", "examples": [{ "text": "Deleting intents" }] },
+{ "intent": "zZz_testing-your-intents", "examples": [{ "text": "Testing your intents" }] },
+{ "intent": "zZz_absolute-scoring-and-mark-as-irrelevant", "examples": [{ "text": "Absolute scoring and Mark as irrelevant" }] },
+{ "intent": "zZz_changing-a-workspace-language", "examples": [{ "text": "Changing a workspace language" }] },
+{ "intent": "zZz_configuring-bi-directional-languages", "examples": [{ "text": "Configuring bi-directional languages" }] },
+{ "intent": "zZz_log-limits", "examples": [{ "text": "Log limits" }] },
+{ "intent": "zZz_filtering-chat-messages", "examples": [{ "text": "Filtering chat messages" }] },
+{ "intent": "zZz_viewing-an-individual-conversation", "examples": [{ "text": "Viewing an individual conversation" }] },
+{ "intent": "zZz_correcting-an-intent", "examples": [{ "text": "Correcting an intent" }] },
+{ "intent": "zZz_adding-an-entity-value-or-synonym", "examples": [{ "text": "Adding an entity value or synonym" }] },
+{ "intent": "zZz_improve-existing-intents", "examples": [{ "text": "Improve existing intents" }] },
+{ "intent": "zZz_limits-by-artifact", "examples": [{ "text": "Limits by artifact" }] },
+{ "intent": "zZz_api-call-limits", "examples": [{ "text": "API call limits" }] },
+{ "intent": "zZz_upgrading-a-service", "examples": [{ "text": "Upgrading a service" }] },
+{ "intent": "zZz_service-api-versioning", "examples": [{ "text": "Service API Versioning" }] },
+{ "intent": "zZz_beta-features", "examples": [{ "text": "Beta features" }] },
+{ "intent": "zZz_updated-models", "examples": [{ "text": "Updated models" }] },
+{ "intent": "zZz_changes", "examples": [{ "text": "Changes" }] },
+{ "intent": "zZz_videos-in-the-documentation", "examples": [{ "text": "Videos in the documentation" }] },
+{ "intent": "zZz_building-with-watson-videos", "examples": [{ "text": "Building with Watson videos" }] },
+{ "intent": "zZz_developer-journeys", "examples": [{ "text": "Developer journeys" }] },
+{ "intent": "zZz_other-videos", "examples": [{ "text": "Other videos" }] },
+{ "intent": "zZz_tutorials-and-articles", "examples": [{ "text": "Tutorials and articles" }] },
+{ "intent": "zZz_simple-chat-app", "examples": [{ "text": "Simple chat app" }] },
+{ "intent": "zZz_conversation-and-car-dashboard-ui", "examples": [{ "text": "Conversation and car dashboard UI" }] },
+{ "intent": "zZz_text-message-weather-bot", "examples": [{ "text": "Text message weather bot" }] },
+{ "intent": "zZz_conversation-and-discovery", "examples": [{ "text": "Conversation and Discovery" }] },
+{ "intent": "zZz_conversation-and-tone-analyzer", "examples": [{ "text": "Conversation and Tone Analyzer" }] },
+{ "intent": "zZz__sys-currency-entity", "examples": [{ "text": "@sys-currency entity" }] },
+{ "intent": "zZz__sys-date-and-sys-time-entities", "examples": [{ "text": "@sys-date and @sys-time entities" }] },
+{ "intent": "zZz__sys-location-entity", "examples": [{ "text": "@sys-location entity" }] },
+{ "intent": "zZz__sys-number-entity", "examples": [{ "text": "@sys-number entity" }] },
+{ "intent": "zZz__sys-percentage-entity", "examples": [{ "text": "@sys-percentage entity" }] },
+{ "intent": "zZz__sys-person-entity", "examples": [{ "text": "@sys-person entity" }] },
+{ "intent": "zZz_chatting-with-the-bot", "examples": [{ "text": "Chatting with the bot" }] },
+{ "intent": "zZz_duration", "examples": [{ "text": "Duration" }] },
+{ "intent": "zZz_create-the-service", "examples": [{ "text": "Step 1: Create the service" }] },
+{ "intent": "zZz_add-intents-and-examples", "examples": [{ "text": "Step 3: Add intents and examples" }] },
+{ "intent": "zZz_add-entities", "examples": [{ "text": "Step 4: Add entities" }] },
+{ "intent": "zZz_create-a-simple-dialog", "examples": [{ "text": "Step 5: Create a simple dialog" }] },
+{ "intent": "zZz_create-a-complex-dialog", "examples": [{ "text": "Step 6: Create a complex dialog" }] },
+{ "intent": "zZz_deploy-the-tutorial-workspace", "examples": [{ "text": "Step 7: Deploy the tutorial workspace" }] },
+{ "intent": "zZz_upgrading-your-workspace", "examples": [{ "text": "Upgrading your workspace" }] },
+{ "intent": "zZz_change-in-jump-to-actions", "examples": [{ "text": "Change in Jump to actions" }] }
+
+  ],
+  "updated": "2017-01-16T14:28:58.033Z",
+  "entities": [
+    {
+      "type": null,
+      "entity": "conv_concepts",
+      "source": null,
+      "values": [
+        {
+          "value": "context",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "dialog context"
+          ]
+        },
+        {
+          "value": "dialog",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "dialog tab"
+          ]
+        },
+        {
+          "value": "entity",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "entities",
+            "named enties",
+            "named entity"
+          ]
+        },
+        {
+          "value": "entity value",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "value of entity"
+          ]
+        },
+        {
+          "value": "intent",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "intents",
+            "NLC intent",
+            "NLC intents"
+          ]
+        },
+        {
+          "value": "node",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "dialog nodes",
+            "dilog node",
+            "nodes"
+          ]
+        },
+        {
+          "value": "service instance",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "conversation service"
+          ]
+        },
+        {
+          "value": "synonym",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "entity synonym",
+            "entity synonyms",
+            "synonyms"
+          ]
+        },
+        {
+          "value": "system entity",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "prebuilt entities",
+            "system entities"
+          ]
+        },
+        {
+          "value": "training sample",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "intent example",
+            "intent value",
+            "user example"
+          ]
+        },
+        {
+          "value": "variable",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "context variable",
+            "context variables",
+            "variables"
+          ]
+        },
+        {
+          "value": "workspace",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "workspaces"
+          ]
+        }
+      ],
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "conv_examples",
+      "source": null,
+      "values": [
+        {
+          "value": "entities",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "entity"
+          ]
+        },
+        {
+          "value": "intents",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "intent",
+            "sample sentence"
+          ]
+        }
+      ],
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "entity_domains",
+      "source": null,
+      "values": [
+        {
+          "value": "city",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "cities",
+            "city name",
+            "city names",
+            "town",
+            "towns",
+            "village",
+            "villages"
+          ]
+        },
+        {
+          "value": "country",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "countries",
+            "location",
+            "locations",
+            "place",
+            "places",
+            "state",
+            "states"
+          ]
+        },
+        {
+          "value": "name",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "family name",
+            "family names",
+            "first name",
+            "given name",
+            "names",
+            "personal name",
+            "personal names"
+          ]
+        },
+        {
+          "value": "patterns",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "email",
+            "e-mail",
+            "e-mail address",
+            "email adress",
+            "emails",
+            "id",
+            "identifier",
+            "ids",
+            "licence plate",
+            "license plates",
+            "pattern",
+            "product number",
+            "product numbers",
+            "registration number",
+            "registration numbers",
+            "room number",
+            "room numbers",
+            "serial number",
+            "ticket number",
+            "tracking number",
+            "url",
+            "web",
+            "web address",
+            "web adresses",
+            "webs"
+          ]
+        }
+      ],
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "evaluation_concepts",
+      "source": null,
+      "values": [
+        {
+          "value": "compare",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "comparison"
+          ]
+        },
+        {
+          "value": "compute",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "count",
+            "evaluate",
+            "evaluation"
+          ]
+        },
+        {
+          "value": "process",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "processing"
+          ]
+        },
+        {
+          "value": "scripting",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "script",
+            "scripts"
+          ]
+        }
+      ],
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "syntax",
+      "source": null,
+      "values": [
+        {
+          "value": "syntax",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "define",
+            "encode",
+            "prescribe",
+            "write"
+          ]
+        }
+      ],
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "syntax_concepts",
+      "source": null,
+      "values": [
+        {
+          "value": "ampersand",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "&",
+            "&&",
+            "ampersand",
+            "ampersands",
+            "ampersand sign",
+            "two ampersand"
+          ]
+        },
+        {
+          "value": "at",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "@",
+            "at sign",
+            "at symbol"
+          ]
+        },
+        {
+          "value": "colon",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            ":"
+          ]
+        },
+        {
+          "value": "dollar",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "$",
+            "dollar sign"
+          ]
+        },
+        {
+          "value": "hash",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "#",
+            "hash key",
+            "hash sign"
+          ]
+        }
+      ],
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "syntax_types",
+      "source": null,
+      "values": [
+        {
+          "value": "full hand syntax",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "fhs",
+            "full hand",
+            "full syntax"
+          ]
+        },
+        {
+          "value": "Short hand syntax",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "short hand",
+            "short syntax",
+            "shs"
+          ]
+        }
+      ],
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-number",
+      "source": "system.entities",
+      "values": [],
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "system_entity_domains",
+      "source": null,
+      "values": [
+        {
+          "value": "currency",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "money"
+          ]
+        },
+        {
+          "value": "date",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "dates",
+            "day",
+            "days",
+            "month",
+            "months",
+            "year",
+            "years"
+          ]
+        },
+        {
+          "value": "number",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "count",
+            "digit",
+            "digits",
+            "numbers"
+          ]
+        },
+        {
+          "value": "percent",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "percentage",
+            "percentages",
+            "percents"
+          ]
+        },
+        {
+          "value": "time",
+          "created": "2017-01-16T12:58:03.974Z",
+          "updated": "2017-01-16T12:58:03.974Z",
+          "metadata": null,
+          "synonyms": [
+            "hour",
+            "hours",
+            "minute",
+            "minutes"
+          ]
+        }
+      ],
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "open_list": false,
+      "description": null
+    }
+  ],
+  "language": "en",
+  "metadata": null,
+  "description": "Super cool help application for Watson Conversation service",
+  "dialog_nodes": [
+    {
+      "go_to": null,
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#GIVE_ME_AN_EXAMPLE && @conv_examples",
+      "description": null,
+      "dialog_node": "examples",
+      "previous_sibling": "anchors"
+    },
+    {
+      "go_to": null,
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#WHAT_IS && @conv_concepts",
+      "description": null,
+      "dialog_node": "conversation concepts",
+      "previous_sibling": "smalltalk"
+    },
+    {
+      "go_to": null,
+      "output": {},
+      "parent": "Feature_info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#ENTITIES_INFO",
+      "description": null,
+      "dialog_node": "Entities info",
+      "previous_sibling": "Sys entities info"
+    },
+    {
+      "go_to": null,
+      "output": {},
+      "parent": "Feature_info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#SYNTAX_SIGNS",
+      "description": null,
+      "dialog_node": "Syntax signs info",
+      "previous_sibling": "Syntax types"
+    },
+    {
+      "go_to": null,
+      "output": {},
+      "parent": "number of training samples",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "bbbb",
+      "previous_sibling": "tips question"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Are you interested in tips how to gather smaples?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "number of training samples",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@sys-number<10",
+      "description": null,
+      "dialog_node": "tips question",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Ask about terms, procedures, examples. Such as \"What is intent?\" or \"Give me an example of date entity usage\"."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#HELP",
+      "description": null,
+      "dialog_node": "help",
+      "previous_sibling": "number of training samples"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "It has been pleasure talking to you."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "smalltalk",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#BYE",
+      "description": null,
+      "dialog_node": "bye",
+      "previous_sibling": "greeting"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "No match"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_2_1481277508934",
+      "previous_sibling": "rnr search"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "OK, no problem."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "tips question",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#NO",
+      "description": null,
+      "dialog_node": "node_17_1481281328287",
+      "previous_sibling": "Show data col. tips"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "When collecting samples for intents, it is important to collect it in a same modality that will be used for final deployment. It means collect samples of text chat bot by letting people to type. Best is to collect sample with target user group of your chatbot."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "tips question",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#YES",
+      "description": null,
+      "dialog_node": "Show data col. tips",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "You are welcome"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "smalltalk",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#THANK_YOU",
+      "description": null,
+      "dialog_node": "thank you",
+      "previous_sibling": "bye"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "You can use documentation for the Watson Conversation directly if you don't like this application."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "smalltalk",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#SUCKS",
+      "description": null,
+      "dialog_node": "sucks",
+      "previous_sibling": "cool"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Nice to meet you",
+            "I am happy to help"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "smalltalk",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#GREETING",
+      "description": null,
+      "dialog_node": "greeting",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Thank you for positive feedabck",
+            "We are happy you like it"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "smalltalk",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#COOL",
+      "description": null,
+      "dialog_node": "cool",
+      "previous_sibling": "thank you"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "rnr": "<? input.text ?>",
+        "text": {
+          "values": [
+            "Searched for the related page using fulltext (see the result in the left panel)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T14:28:58.033Z",
+      "metadata": null,
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "rnr search",
+      "previous_sibling": "Feature_info"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "See related documentation page for <? current_node.metadata.mapping[intents.intent].text ?> ...",
+            "Found related page for <? current_node.metadata.mapping[intents.intent].text ?> ...",
+            "We do have documentation for <? current_node.metadata.mapping[intents.intent].text ?> ..."
+          ],
+          "selection_policy": "random"
+        },
+        "url": "<? current_node.metadata.mapping[intents.intent].url ?>"
+      },
+      "parent": null,
+      "metadata": {
+        "mapping": {
+          "zZz_workspace-limits": {
+            "url": "https://console.bluemix.net/docs/services/conversation/configure-workspace.html#workspace-limits",
+            "text": "Workspace limits"
+          },
+          "zZz_creating-workspaces": {
+            "url": "https://console.bluemix.net/docs/services/conversation/configure-workspace.html#creating-workspaces",
+            "text": "Creating workspaces"
+          },
+          "zZz_exporting-and-copying-workspaces": {
+            "url": "https://console.bluemix.net/docs/services/conversation/configure-workspace.html#exporting-and-copying-workspaces",
+            "text": "Exporting and copying workspaces"
+          },
+          "zZz_setting-up-the-conversation-service": {
+            "url": "https://console.bluemix.net/docs/services/conversation/develop-app.html#setting-up-the-conversation-service",
+            "text": "Setting up the Conversation service"
+          },
+          "zZz_getting-service-information": {
+            "url": "https://console.bluemix.net/docs/services/conversation/develop-app.html#getting-service-information",
+            "text": "Getting service information"
+          },
+          "zZz_communicating-with-the-conversation-service": {
+            "url": "https://console.bluemix.net/docs/services/conversation/develop-app.html#communicating-with-the-conversation-service",
+            "text": "Communicating with the Conversation service"
+          },
+          "zZz_processing-user-input-to-detect-intents": {
+            "url": "https://console.bluemix.net/docs/services/conversation/develop-app.html#processing-user-input-to-detect-intents",
+            "text": "Processing user input to detect intents"
+          },
+          "zZz_maintaining-state": {
+            "url": "https://console.bluemix.net/docs/services/conversation/develop-app.html#maintaining-state",
+            "text": "Maintaining state"
+          },
+          "zZz_implementing-app-actions": {
+            "url": "https://console.bluemix.net/docs/services/conversation/develop-app.html#implementing-app-actions",
+            "text": "Implementing app actions"
+          },
+          "zZz_dialog-overview": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-build.html#dialog-overview",
+            "text": "Dialog overview"
+          },
+          "zZz_conditions": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-build.html#conditions",
+            "text": "Conditions"
+          },
+          "zZz_responses": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-build.html#responses",
+            "text": "Responses"
+          },
+          "zZz_context-variables": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-build.html#context-variables",
+            "text": "Context variables"
+          },
+          "zZz_creating-a-dialog": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-build.html#creating-a-dialog",
+            "text": "Creating a dialog"
+          },
+          "zZz_gathering-information-with-slots": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-build.html#gathering-information-with-slots",
+            "text": "Gathering information with slots"
+          },
+          "zZz_testing-your-dialog": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-build.html#testing-your-dialog",
+            "text": "Testing your dialog"
+          },
+          "zZz_arrays": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-methods.html#arrays",
+            "text": "Arrays"
+          },
+          "zZz_date-and-time": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-methods.html#date-and-time",
+            "text": "Date and Time"
+          },
+          "zZz_numbers": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-methods.html#numbers",
+            "text": "Numbers"
+          },
+          "zZz_objects": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-methods.html#objects",
+            "text": "Objects"
+          },
+          "zZz_strings": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-methods.html#strings",
+            "text": "Strings"
+          },
+          "zZz_shorthand-for-intents": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-shorthand.html#shorthand-for-intents",
+            "text": "Shorthand for intents"
+          },
+          "zZz_shorthand-for-entities": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-shorthand.html#shorthand-for-entities",
+            "text": "Shorthand for entities"
+          },
+          "zZz_shorthand-for-context-variables": {
+            "url": "https://console.bluemix.net/docs/services/conversation/dialog-shorthand.html#shorthand-for-context-variables",
+            "text": "Shorthand for context variables"
+          },
+          "zZz_entity-limits": {
+            "url": "https://console.bluemix.net/docs/services/conversation/entities.html#entity-limits",
+            "text": "Entity limits"
+          },
+          "zZz_creating-entities": {
+            "url": "https://console.bluemix.net/docs/services/conversation/entities.html#creating-entities",
+            "text": "Creating entities"
+          },
+          "zZz_editing-entities": {
+            "url": "https://console.bluemix.net/docs/services/conversation/entities.html#editing-entities",
+            "text": "Editing entities"
+          },
+          "zZz_importing-entities": {
+            "url": "https://console.bluemix.net/docs/services/conversation/entities.html#importing-entities",
+            "text": "Importing entities"
+          },
+          "zZz_exporting-entities": {
+            "url": "https://console.bluemix.net/docs/services/conversation/entities.html#exporting-entities",
+            "text": "Exporting entities"
+          },
+          "zZz_deleting-entities": {
+            "url": "https://console.bluemix.net/docs/services/conversation/entities.html#deleting-entities",
+            "text": "Deleting entities"
+          },
+          "zZz_enabling-system-entities": {
+            "url": "https://console.bluemix.net/docs/services/conversation/entities.html#enabling-system-entities",
+            "text": "Enabling system entities"
+          },
+          "zZz_built-in-global-variables": {
+            "url": "https://console.bluemix.net/docs/services/conversation/expression-language.html#built-in-global-variables",
+            "text": "Built-in global variables"
+          },
+          "zZz_accessing-entities": {
+            "url": "https://console.bluemix.net/docs/services/conversation/expression-language.html#accessing-entities",
+            "text": "Accessing entities"
+          },
+          "zZz_accessing-input": {
+            "url": "https://console.bluemix.net/docs/services/conversation/expression-language.html#accessing-input",
+            "text": "Accessing input"
+          },
+          "zZz_accessing-intents": {
+            "url": "https://console.bluemix.net/docs/services/conversation/expression-language.html#accessing-intents",
+            "text": "Accessing intents"
+          },
+          "zZz_evaluation": {
+            "url": "https://console.bluemix.net/docs/services/conversation/expression-language.html#evaluation",
+            "text": "Evaluation"
+          },
+          "zZz_operators": {
+            "url": "https://console.bluemix.net/docs/services/conversation/filter-reference.html#operators",
+            "text": "Operators"
+          },
+          "zZz_before-you-begin": {
+            "url": "https://console.bluemix.net/docs/services/conversation/getting-started.html#before-you-begin",
+            "text": "Before you begin"
+          },
+          "zZz_launch-the-tool": {
+            "url": "https://console.bluemix.net/docs/services/conversation/getting-started.html#step-1:-launch-the-tool",
+            "text": "Step 1: Launch the tool"
+          },
+          "zZz_create-a-workspace": {
+            "url": "https://console.bluemix.net/docs/services/conversation/tutorial.html#step-2:-create-a-workspace",
+            "text": "Step 2: Create a workspace"
+          },
+          "zZz_create-intents": {
+            "url": "https://console.bluemix.net/docs/services/conversation/getting-started.html#step-3:-create-intents",
+            "text": "Step 3: Create intents"
+          },
+          "zZz_build-a-dialog": {
+            "url": "https://console.bluemix.net/docs/services/conversation/getting-started.html#step-4:-build-a-dialog",
+            "text": "Step 4: Build a dialog"
+          },
+          "zZz_review-the-sample-workspace": {
+            "url": "https://console.bluemix.net/docs/services/conversation/getting-started.html#step-5:-review-the-sample-workspace",
+            "text": "Step 5: Review the sample workspace"
+          },
+          "zZz_what-to-do-next": {
+            "url": "https://console.bluemix.net/docs/services/conversation/getting-started.html#what-to-do-next",
+            "text": "What to do next"
+          },
+          "zZz_details": {
+            "url": "https://console.bluemix.net/docs/services/conversation/gs-test-dialog-animated.html#details",
+            "text": "Details"
+          },
+          "zZz_how-to-use-the-service": {
+            "url": "https://console.bluemix.net/docs/services/conversation/index.html#how-to-use-the-service",
+            "text": "How to use the service"
+          },
+          "zZz_implementation": {
+            "url": "https://console.bluemix.net/docs/services/conversation/index.html#implementation",
+            "text": "Implementation"
+          },
+          "zZz_language-support": {
+            "url": "https://console.bluemix.net/docs/services/conversation/index.html#language-support",
+            "text": "Language support"
+          },
+          "zZz_next-steps": {
+            "url": "https://console.bluemix.net/docs/services/conversation/index.html#next-steps",
+            "text": "Next steps"
+          },
+          "zZz_intent-limits": {
+            "url": "https://console.bluemix.net/docs/services/conversation/intents.html#intent-limits",
+            "text": "Intent limits"
+          },
+          "zZz_creating-intents": {
+            "url": "https://console.bluemix.net/docs/services/conversation/intents.html#creating-intents",
+            "text": "Creating intents"
+          },
+          "zZz_editing-intents": {
+            "url": "https://console.bluemix.net/docs/services/conversation/intents.html#editing-intents",
+            "text": "Editing intents"
+          },
+          "zZz_importing-intents-and-examples": {
+            "url": "https://console.bluemix.net/docs/services/conversation/intents.html#importing-intents-and-examples",
+            "text": "Importing intents and examples"
+          },
+          "zZz_exporting-intents": {
+            "url": "https://console.bluemix.net/docs/services/conversation/intents.html#exporting-intents",
+            "text": "Exporting intents"
+          },
+          "zZz_deleting-intents": {
+            "url": "https://console.bluemix.net/docs/services/conversation/intents.html#deleting-intents",
+            "text": "Deleting intents"
+          },
+          "zZz_testing-your-intents": {
+            "url": "https://console.bluemix.net/docs/services/conversation/intents.html#testing-your-intents",
+            "text": "Testing your intents"
+          },
+          "zZz_absolute-scoring-and-mark-as-irrelevant": {
+            "url": "https://console.bluemix.net/docs/services/conversation/intents.html#absolute-scoring-and-mark-as-irrelevant",
+            "text": "Absolute scoring and Mark as irrelevant"
+          },
+          "zZz_changing-a-workspace-language": {
+            "url": "https://console.bluemix.net/docs/services/conversation/lang-support.html#changing-a-workspace-language",
+            "text": "Changing a workspace language"
+          },
+          "zZz_configuring-bi-directional-languages": {
+            "url": "https://console.bluemix.net/docs/services/conversation/lang-support.html#configuring-bi-directional-languages",
+            "text": "Configuring bi-directional languages"
+          },
+          "zZz_log-limits": {
+            "url": "https://console.bluemix.net/docs/services/conversation/logs_convo.html#log-limits",
+            "text": "Log limits"
+          },
+          "zZz_filtering-chat-messages": {
+            "url": "https://console.bluemix.net/docs/services/conversation/logs_convo.html#filtering-chat-messages",
+            "text": "Filtering chat messages"
+          },
+          "zZz_viewing-an-individual-conversation": {
+            "url": "https://console.bluemix.net/docs/services/conversation/logs_convo.html#viewing-an-individual-conversation",
+            "text": "Viewing an individual conversation"
+          },
+          "zZz_correcting-an-intent": {
+            "url": "https://console.bluemix.net/docs/services/conversation/logs_convo.html#correcting-an-intent",
+            "text": "Correcting an intent"
+          },
+          "zZz_adding-an-entity-value-or-synonym": {
+            "url": "https://console.bluemix.net/docs/services/conversation/logs_convo.html#adding-an-entity-value-or-synonym",
+            "text": "Adding an entity value or synonym"
+          },
+          "zZz_improve-existing-intents": {
+            "url": "https://console.bluemix.net/docs/services/conversation/logs_recommend.html#improve-existing-intents",
+            "text": "Improve existing intents"
+          },
+          "zZz_limits-by-artifact": {
+            "url": "https://console.bluemix.net/docs/services/conversation/plan-upgrade.html#limits-by-artifact",
+            "text": "Limits by artifact"
+          },
+          "zZz_api-call-limits": {
+            "url": "https://console.bluemix.net/docs/services/conversation/plan-upgrade.html#api-call-limits",
+            "text": "API call limits"
+          },
+          "zZz_upgrading-a-service": {
+            "url": "https://console.bluemix.net/docs/services/conversation/plan-upgrade.html#upgrading-a-service",
+            "text": "Upgrading a service"
+          },
+          "zZz_service-api-versioning": {
+            "url": "https://console.bluemix.net/docs/services/conversation/release-notes.html#service-api-versioning",
+            "text": "Service API Versioning"
+          },
+          "zZz_beta-features": {
+            "url": "https://console.bluemix.net/docs/services/conversation/release-notes.html#beta-features",
+            "text": "Beta features"
+          },
+          "zZz_updated-models": {
+            "url": "https://console.bluemix.net/docs/services/conversation/release-notes.html#updated-models",
+            "text": "Updated models"
+          },
+          "zZz_changes": {
+            "url": "https://console.bluemix.net/docs/services/conversation/release-notes.html#changes",
+            "text": "Changes"
+          },
+          "zZz_videos-in-the-documentation": {
+            "url": "https://console.bluemix.net/docs/services/conversation/resources.html#videos-in-the-documentation",
+            "text": "Videos in the documentation"
+          },
+          "zZz_building-with-watson-videos": {
+            "url": "https://console.bluemix.net/docs/services/conversation/resources.html#building-with-watson-videos",
+            "text": "Building with Watson videos"
+          },
+          "zZz_developer-journeys": {
+            "url": "https://console.bluemix.net/docs/services/conversation/resources.html#developer-journeys",
+            "text": "Developer journeys"
+          },
+          "zZz_other-videos": {
+            "url": "https://console.bluemix.net/docs/services/conversation/resources.html#other-videos",
+            "text": "Other videos"
+          },
+          "zZz_tutorials-and-articles": {
+            "url": "https://console.bluemix.net/docs/services/conversation/resources.html#tutorials-and-articles",
+            "text": "Tutorials and articles"
+          },
+          "zZz_simple-chat-app": {
+            "url": "https://console.bluemix.net/docs/services/conversation/sample-applications.html#simple-chat-app",
+            "text": "Simple chat app"
+          },
+          "zZz_conversation-and-car-dashboard-ui": {
+            "url": "https://console.bluemix.net/docs/services/conversation/sample-applications.html#conversation-and-car-dashboard-ui",
+            "text": "Conversation and car dashboard UI"
+          },
+          "zZz_text-message-weather-bot": {
+            "url": "https://console.bluemix.net/docs/services/conversation/sample-applications.html#text-message-weather-bot",
+            "text": "Text message weather bot"
+          },
+          "zZz_conversation-and-discovery": {
+            "url": "https://console.bluemix.net/docs/services/conversation/sample-applications.html#conversation-and-discovery",
+            "text": "Conversation and Discovery"
+          },
+          "zZz_conversation-and-tone-analyzer": {
+            "url": "https://console.bluemix.net/docs/services/conversation/sample-applications.html#conversation-and-tone-analyzer",
+            "text": "Conversation and Tone Analyzer"
+          },
+          "zZz__sys-currency-entity": {
+            "url": "https://console.bluemix.net/docs/services/conversation/system-entities.html#@sys-currency-entity",
+            "text": "@sys-currency entity"
+          },
+          "zZz__sys-date-and-sys-time-entities": {
+            "url": "https://console.bluemix.net/docs/services/conversation/system-entities.html#@sys-date-and-@sys-time-entities",
+            "text": "@sys-date and @sys-time entities"
+          },
+          "zZz__sys-location-entity": {
+            "url": "https://console.bluemix.net/docs/services/conversation/system-entities.html#@sys-location-entity",
+            "text": "@sys-location entity"
+          },
+          "zZz__sys-number-entity": {
+            "url": "https://console.bluemix.net/docs/services/conversation/system-entities.html#@sys-number-entity",
+            "text": "@sys-number entity"
+          },
+          "zZz__sys-percentage-entity": {
+            "url": "https://console.bluemix.net/docs/services/conversation/system-entities.html#@sys-percentage-entity",
+            "text": "@sys-percentage entity"
+          },
+          "zZz__sys-person-entity": {
+            "url": "https://console.bluemix.net/docs/services/conversation/system-entities.html#@sys-person-entity",
+            "text": "@sys-person entity"
+          },
+          "zZz_chatting-with-the-bot": {
+            "url": "https://console.bluemix.net/docs/services/conversation/test-deploy.html#chatting-with-the-bot",
+            "text": "Chatting with the bot"
+          },
+          "zZz_duration": {
+            "url": "https://console.bluemix.net/docs/services/conversation/tutorial.html#duration",
+            "text": "Duration"
+          },
+          "zZz_create-the-service": {
+            "url": "https://console.bluemix.net/docs/services/conversation/tutorial.html#step-1:-create-the-service",
+            "text": "Step 1: Create the service"
+          },
+          "zZz_add-intents-and-examples": {
+            "url": "https://console.bluemix.net/docs/services/conversation/tutorial.html#step-3:-add-intents-and-examples",
+            "text": "Step 3: Add intents and examples"
+          },
+          "zZz_add-entities": {
+            "url": "https://console.bluemix.net/docs/services/conversation/tutorial.html#step-4:-add-entities",
+            "text": "Step 4: Add entities"
+          },
+          "zZz_create-a-simple-dialog": {
+            "url": "https://console.bluemix.net/docs/services/conversation/tutorial.html#step-5:-create-a-simple-dialog",
+            "text": "Step 5: Create a simple dialog"
+          },
+          "zZz_create-a-complex-dialog": {
+            "url": "https://console.bluemix.net/docs/services/conversation/tutorial.html#step-6:-create-a-complex-dialog",
+            "text": "Step 6: Create a complex dialog"
+          },
+          "zZz_deploy-the-tutorial-workspace": {
+            "url": "https://console.bluemix.net/docs/services/conversation/tutorial.html#step-7:-deploy-the-tutorial-workspace",
+            "text": "Step 7: Deploy the tutorial workspace"
+          },
+          "zZz_upgrading-your-workspace": {
+            "url": "https://console.bluemix.net/docs/services/conversation/upgrading.html#upgrading-your-workspace",
+            "text": "Upgrading your workspace"
+          },
+          "zZz_change-in-jump-to-actions": {
+            "url": "https://console.bluemix.net/docs/services/conversation/upgrading.html#change-in-jump-to-actions",
+            "text": "Change in Jump to actions"
+          }
+        }
+      },
+      "conditions": "intents && intents.intent.contains('zZz_') && intents.confidence > 0.2",
+      "dialog_node": "anchors",
+      "previous_sibling": "conversation concepts"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/dialog-shorthand.html\\#shorthand-syntax",
+        "text": {
+          "values": [
+            "Description of short hand syntax can be found on documentation page."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Syntax types",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@syntax_types:(Short hand syntax)",
+      "description": null,
+      "dialog_node": "Short hand",
+      "previous_sibling": "Full hand"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/system-entities.html",
+        "text": {
+          "values": [
+            "We have feature called system entities, that could be used to detect numbers, date, time, currency and percentage. You will find it in Entities tab."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Feature_info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#SYSTEM_ENTITIES_INFO",
+      "description": null,
+      "dialog_node": "Sys entities info",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/expression-language.html",
+        "text": {
+          "values": [
+            "Description of full hand syntax (expression language) can be found on documentation page."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Syntax types",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@syntax_types:(full hand syntax)",
+      "description": null,
+      "dialog_node": "Full hand",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/expression-language.html",
+        "text": {
+          "values": [
+            "There is a support of SpEL language in Watson Conversation that can be used to do scripting."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Feature_info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#SCRIPTING_INFO",
+      "description": null,
+      "dialog_node": "SpEL info",
+      "previous_sibling": "Entities info"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/index.html\\#about",
+        "text": {
+          "values": [
+            "Let's talk about the IBM Conversation service, what would you like to know?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "conversation_start",
+      "description": null,
+      "dialog_node": "intro",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/expression-language.html\\#accessing-and-evaluating-objects",
+        "text": {
+          "values": [
+            "Conversation uses two types of syntax. One is simple with limitted functions called \"short hand syntax\" and the second is more complex and also more powerfull called \"full hand syntax\" Which one are you interested in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Feature_info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#SYNTAX_OF_CONVERSATION",
+      "description": null,
+      "dialog_node": "Syntax types",
+      "previous_sibling": "SpEL info"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "conversation concepts"
+      },
+      "output": {},
+      "parent": "smalltalk",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_3_1481708715063",
+      "previous_sibling": "sucks"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "greeting"
+      },
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "smalltalk",
+      "previous_sibling": "intro"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "rnr search"
+      },
+      "output": {},
+      "parent": "Feature_info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_7_1481296011671",
+      "previous_sibling": "Syntax signs info"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "Sys entities info"
+      },
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "Feature_info",
+      "previous_sibling": "help"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "tips question"
+      },
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "#NUMBER_OF_EXAMPLES_Q && @sys-number",
+      "description": null,
+      "dialog_node": "number of training samples",
+      "previous_sibling": "examples"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "It is great if you have 10 or more exmaples. You can add more samples later to achive better accuracy of the system."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "number of training samples",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@sys-number>=10",
+      "description": null,
+      "dialog_node": "node_12_1481280021317",
+      "previous_sibling": "node_10_1481279858096"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "It shold be suffitient to use 5 or more exmaples, but you will achieve better accuracy of the system if you provide more user exmaples. You can also add exmaples later when you will gather some data"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "number of training samples",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@sys-number >= 5 && @sys-number<10",
+      "description": null,
+      "dialog_node": "node_10_1481279858096",
+      "previous_sibling": "node_11_1481279952062"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pattern based entity recognition is not currently supported"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Entities info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @entity_domains:patterns",
+      "description": null,
+      "dialog_node": "node_28_1481288187030",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "System will not work properly if you provide less than 5 examples. Try to ask people around and gather more samples for your intent."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "number of training samples",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@sys-number<5",
+      "description": null,
+      "dialog_node": "node_11_1481279952062",
+      "previous_sibling": "bbbb"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/configure-workspace.html\\#creating-workspaces",
+        "text": {
+          "values": [
+            "An intent represent’s the purpose of a user’s input, such as a question about business locations or a bill payment. You define an intent for each type of user request you want your application to support."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @conv_concepts:intent",
+      "description": null,
+      "dialog_node": "node_3_1481278787746",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/configure-workspace.html",
+        "text": {
+          "values": [
+            "Workspace is a container for all of the artifacts that define the conversation flow for an application."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @conv_concepts:workspace",
+      "description": null,
+      "dialog_node": "node_19_1481284869627",
+      "previous_sibling": "node_2_1481278710019"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/dialog-build.html",
+        "text": {
+          "values": [
+            "Dialog is a part where you can assemble intents and entity together to design a meaningfull dialog flow"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@conv_concepts:dialog",
+      "description": null,
+      "dialog_node": "node_2_1481278710019",
+      "previous_sibling": "node_8_1481279735066"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/dialog-build.html\\#context",
+        "text": {
+          "values": [
+            "In context variable you can store piece of information (value) that will persist in the dialog context."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @conv_concepts:variable",
+      "description": null,
+      "dialog_node": "node_12_1481296890809",
+      "previous_sibling": "node_11_1481296870193"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/dialog-build.html\\#dialog-nodes",
+        "text": {
+          "values": [
+            "Dialog node is an element of a dialog that represents a single interaction that is a part of a conversation."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @conv_concepts:node",
+      "description": null,
+      "dialog_node": "node_7_1481279691778",
+      "previous_sibling": "node_6_1481278884574"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/dialog-build.html\\#dialog-flow",
+        "text": {
+          "values": [
+            "The dialog context is the mechanism for passing information between the dialog and your application code."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @conv_concepts:context",
+      "description": null,
+      "dialog_node": "node_11_1481296870193",
+      "previous_sibling": "node_20_1481284884627"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/dialog-shorthand.html",
+        "text": {
+          "values": [
+            "The ampersand sign \"&\" is used in standard syntax as an AND condition. You need to use it as \"&&\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Syntax signs info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @syntax_concepts:ampersand",
+      "description": null,
+      "dialog_node": "node_9_1481296320442",
+      "previous_sibling": "node_8_1481296236019"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/dialog-shorthand.html",
+        "text": {
+          "values": [
+            "The collon \":\" is used as expression of equality in short hand syntax"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Syntax signs info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @syntax_concepts:colon",
+      "description": null,
+      "dialog_node": "node_10_1481296394281",
+      "previous_sibling": "node_9_1481296320442"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/dialog-shorthand.html\\#shorthand-for-context-variables",
+        "text": {
+          "values": [
+            "The dollar sign \"$\" is used as a prefix of concept variable"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Syntax signs info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@syntax_concepts:dollar",
+      "description": null,
+      "dialog_node": "node_8_1481296236019",
+      "previous_sibling": "node_6_1481295619621"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/dialog-shorthand.html\\#shorthand-for-entities",
+        "text": {
+          "values": [
+            "The at sign \"@\" is used to prefix en entity"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Syntax signs info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@syntax_concepts:at",
+      "description": null,
+      "dialog_node": "node_6_1481295619621",
+      "previous_sibling": "node_5_1481295579055"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/dialog-shorthand.html\\#shorthand-for-intents",
+        "text": {
+          "values": [
+            "The hash sign \"#\" is used to prefix an intent"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Syntax signs info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@syntax_concepts:hash",
+      "description": null,
+      "dialog_node": "node_5_1481295579055",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/entities.html\\#creating-entities",
+        "text": {
+          "values": [
+            "An entity represents a term or object that is relevant to your intents and that provides a specific context for an intent. For example, an entity might represent a city where the user wants to find a business location, or the amount of a bill payment."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@conv_concepts:entity",
+      "description": null,
+      "dialog_node": "node_5_1481278867681",
+      "previous_sibling": "node_4_1481278841069"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/entities.html\\#creating-entities",
+        "text": {
+          "values": [
+            "You can create your own dictionary based entity in entities tab. You will need to provide list of values e.g. city names you want to be detected."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Entities info",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_27_1481288185964",
+      "previous_sibling": "node_28_1481288187030"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/entities.html\\#defining-entities",
+        "text": {
+          "values": [
+            "Entity value is one record of an entity.  For entity cities it could be \"Washington\" or \"New York\". Each entity value could have synonyms such as \"N.Y.\" or \"Big apple\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @conv_concepts:(entity value)",
+      "description": null,
+      "dialog_node": "node_6_1481278884574",
+      "previous_sibling": "node_5_1481278867681"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/entities.html\\#defining-entities",
+        "text": {
+          "values": [
+            "Entity value synonym is expressing same hing in diferent words. For entity cities where we have value \"New York\" the synonyms could be \"N.Y.\" or \"Big apple\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@conv_concepts:synonym",
+      "description": null,
+      "dialog_node": "node_8_1481279735066",
+      "previous_sibling": "node_7_1481279691778"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/system-entities.html",
+        "text": {
+          "values": [
+            "System entity is feature allowing you detection of numbers, times or dates, that would difficult to handle by dictionary based entities."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @conv_concepts:(system entity)",
+      "description": null,
+      "dialog_node": "node_20_1481284884627",
+      "previous_sibling": "node_19_1481284869627"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/getting-started.html",
+        "text": {
+          "values": [
+            "Before you can start using the Conversation service, you must log in to IBM® Bluemix® and create a service instance."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @conv_concepts:(service instance)",
+      "description": null,
+      "dialog_node": "node_1_1481317075578",
+      "previous_sibling": "node_12_1481296890809"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/intents.html\\#creating-intents",
+        "text": {
+          "values": [
+            "Training sample is the textual string or utterance of user who is asking for particular information."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "conversation concepts",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @conv_concepts:(training sample)",
+      "description": null,
+      "dialog_node": "node_4_1481278841069",
+      "previous_sibling": "node_3_1481278787746"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/tutorial.html\\#entities",
+        "text": {
+          "values": [
+            "Use <b>Entities</b> tab to add your entities. See related documentation page."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "examples",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": "@conv_examples:entities",
+      "description": null,
+      "dialog_node": "node_1_1481279017499",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "url": "https://console.bluemix.net/docs/services/conversation/tutorial.html\\#intents",
+        "text": {
+          "values": [
+            "Use <b>Intents</b> tab to enter intents. See related documentation page."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "examples",
+      "context": null,
+      "created": "2017-01-16T12:58:03.974Z",
+      "updated": "2017-01-16T12:58:03.974Z",
+      "metadata": null,
+      "conditions": " @conv_examples:intents",
+      "description": null,
+      "dialog_node": "node_2_1481279545030",
+      "previous_sibling": "node_1_1481279017499"
+    }
+  ],
+  "workspace_id": "c49fa32b-e489-4c9e-a500-8d7f35deb9c9",
+  "counterexamples": []
+}

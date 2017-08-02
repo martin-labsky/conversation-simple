@@ -45,7 +45,7 @@ foreach(@files) {
 	
 	my $json = JSON->new;
 
-	my $data_to_json = {doc=>{id=>$number,author=>"http://www.ibm.com/watson/developercloud/doc/conversation/$url",title=>"$title",body=>"$document"}};
+	my $data_to_json = {doc=>{id=>$number,author=>"https://console.bluemix.net/docs/services/conversation/$url.html",title=>"$title",body=>"$document"}};     
 
 	print RNR "\"add\": ";
 	print RNR $json->encode($data_to_json);

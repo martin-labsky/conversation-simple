@@ -44,7 +44,6 @@ foreach(@files) {
 
 
 	my $lineNo;
-	my $prevLine = "";
 
 	while( <MDFILE> )  {   
 
@@ -55,28 +54,30 @@ foreach(@files) {
 		my $input = $_;
 
 		$input =~ s/\r//g;
-		
-		if	(m/^-------/) {
+   	
+#		if	(m/^-------/) {   
+    if	(m/^\#\# /) {   
 				$ex_no++;
-				my $anchor = lc($prevLine);
+        $input =~ s/^\#\# //;
+				my $anchor = lc($input);
 				$anchor =~ s/ /-/g;
 				$anchor =~ s/,//g;
 				my $anchor_id = $anchor;
 				$anchor_id =~ s/@//g;
-				$anchor_id =~ s/^sys/_sys/g;
+				$anchor_id =~ s/^sys/_sys/;
+        $anchor_id =~ s/^step\-[\d]\:-//;
 				$anchor_id = "zZz_".$anchor_id;
 				
 				my $dialog_node_id = $anchor_id;
-				print "** ".$prevLine." ... ".$url."#".$anchor."\n";
-				print INTENTS "{ \"intent\": \"".$anchor_id."\", \"examples\": [{ \"text\": \"".$prevLine."\" }] },\n";
+				print "** ".$input." ... ".$url."#".$anchor."\n";
+				print INTENTS "{ \"intent\": \"".$anchor_id."\", \"examples\": [{ \"text\": \"".$input."\" }] },\n";
 				if ($ex_no > 1) {
 					print DIALOG ",\n";
 				}
-				print DIALOG " \"".$anchor_id."\": { \"url\": \"http://www.ibm.com/watson/developercloud/doc/conversation/".$url."#".$anchor."\", \"text\": \"".$prevLine."\" }";
+				print DIALOG " \"".$anchor_id."\": { \"url\": \"https://console.bluemix.net/docs/services/conversation/".$url.".html#".$anchor."\", \"text\": \"".$input."\" }";          
 				$prev_dialog_node_id = "\"".$dialog_node_id."\"";
 		}
 
-		$prevLine = $input;
 
 	}
 	
